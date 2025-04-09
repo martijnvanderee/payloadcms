@@ -1,5 +1,5 @@
 import { withPayload } from '@payloadcms/next/withPayload'
-import ContentSecurityPolicy from './csp'
+import { csp } from './csp.js'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -32,7 +32,7 @@ const nextConfig = {
       headers: [
         {
           key: 'Content-Security-Policy',
-          value: ContentSecurityPolicy,
+          value: csp,
         },
       ],
     })
