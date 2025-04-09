@@ -8,6 +8,7 @@ const policies = {
     'https://js.stripe.com',
     'https://maps.googleapis.com',
     'http://vue-frontend-wjofai-d643e5-168-119-233-159.traefik.me',
+    'http://localhost:5173',
   ],
   'child-src': ["'self'"],
   'style-src': ["'self'", "'unsafe-inline'", 'https://fonts.googleapis.com'],
