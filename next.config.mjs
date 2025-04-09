@@ -1,4 +1,5 @@
 import { withPayload } from '@payloadcms/next/withPayload'
+import ContentSecurityPolicy from 'csp'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
