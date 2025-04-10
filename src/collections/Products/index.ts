@@ -19,6 +19,9 @@ export const Products: CollectionConfig = {
     // afterRead: [populateArchiveBlock],
     afterDelete: [deleteProduct],
   },
+  access: {
+    read: () => true,
+  },
   //   versions: {
   //     drafts: true,
   //   },
