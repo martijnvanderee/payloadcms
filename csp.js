@@ -19,12 +19,16 @@ const policies = {
     'https://checkout.stripe.com',
     'https://js.stripe.com',
     'https://hooks.stripe.com',
+    'http://vue-frontend-wjofai-d643e5-168-119-233-159.traefik.me',
+    'http://localhost:5173',
   ],
   'connect-src': [
     "'self'",
     'https://checkout.stripe.com',
     'https://api.stripe.com',
     'https://maps.googleapis.com',
+    'http://vue-frontend-wjofai-d643e5-168-119-233-159.traefik.me',
+    'http://localhost:5173',
   ],
 }
 
